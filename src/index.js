@@ -1,12 +1,11 @@
-import './style.css'
+import './style.css';
 
 function comp() {
-    const element = document.createElement('h2')
+  const element = document.createElement('h2');
 
-    element.innerText = `Hello World`
+  element.innerText = 'Hello World';
 
-    return element;
+  return element;
 }
 
 document.body.appendChild(comp());
-
