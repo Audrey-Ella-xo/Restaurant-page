@@ -9,6 +9,7 @@ body {
   background-size: cover;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  color: #fff;
 }
 
 .container {
@@ -53,16 +54,12 @@ a:hover {
     color: #fff;
     border-radius: 5px;
     padding: 20px;
-    /* font-size: 150%; */
   }
 
-  .menu-list {
-      margin-right: 500px;
-  }
-
-  #contactContent {
+  #contactContent, #menuContent {
     background-color: rgba(68, 68, 68, 0.65);
     margin: 0 200px;
     padding: 10px 50px;
     border-radius: 10px;
   }
+  
