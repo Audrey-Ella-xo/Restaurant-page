@@ -21,21 +21,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Audrey-Ella-xo/To-Do-List">
+  <a href="https://github.com/Audrey-Ella-xo/Restaurant-page">
     <img src="https://raw.githubusercontent.com/euqueme/toy-app/master/app/assets/images/mLogo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Javascript Todo List</h3>
+  <h3 align="center">Javascript Restaurant Page</h3>
 
   <p align="center">
     This project is part of the Microverse Javascript curriculum!
     <br />
-    <a href="https://github.com/Audrey-Ella-xo/To-Do-List"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Audrey-Ella-xo/Restaurant-page"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Audrey-Ella-xo/To-Do-List/issues">Report Bug</a>
+    <a href="https://github.com/Audrey-Ella-xo/Restaurant-page/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Audrey-Ella-xo/To-Do-List/issues">Request Feature</a>
+    <a href="https://github.com/Audrey-Ella-xo/Restaurant-page/issues">Request Feature</a>
   </p>
 </p>
 
@@ -58,7 +58,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is a simple Todo list application that was done in an effort to learn about the use of javascript factory functions, module pattern, Single Responsibility and Tightly Coupled Objects with HTML and CSS.
+This project is a simple Restaurant page application that was done in an effort to learn about the use of javascript factory functions, module pattern, Webpack and ES6 Modules's single Responsibility and Tightly Coupled Objects with HTML and CSS.
 
 #### Screenshot
 ![image](https://user-images.githubusercontent.com/54140453/83572611-cb356780-a521-11ea-89ca-e6a0e47228cb.png)
@@ -66,10 +66,10 @@ This project is a simple Todo list application that was done in an effort to lea
 ### Installation
 
 To get a local copy up and running follow these simple example steps.
-* Clone the project - git clone https://github.com/Audrey-Ella-xo/To-Do-List.git if you have git installed, or download it from github
+* Clone the project - git clone https://github.com/Audrey-Ella-xo/Restaurant-page.git if you have git installed, or download it from github
 * open locally and Navigate the Directory. The directory has the following structure:
- 1. A dist folder that holds the index.html files and dom main script respectively.
- 2. An src folder that holds the CSS style and the index.js file.
+ 1. A dist folder that holds the index.html files and main script respectively.
+ 2. An src folder that holds the CSS style the index.js, home.js, menu.js and contact.js files.
  3. A README file.
 
 # Prerequisites
@@ -120,9 +120,8 @@ This project was built using these technologies.
 Audrey Emmanuella Odiaka - [@o___audrey_xo](https://twitter.com/o___audrey_xo) - [@audrey-ella-xo](https://github.com/audrey-ella-xo) - anitaudrey@gmail.com
 <br />
 <br />
-Mohammed Touili - [@simoxsimo](https://github.com/simoxsimo) - touili.mohammed@gmail.com
 
-Project Link: [https://github.com/Audrey-Ella-xo/To-Do-List/)
+Project Link: [https://github.com/Audrey-Ella-xo/Restaurant-page/)
 
 ## 🤝 Contributing
 
@@ -143,11 +142,11 @@ Give a ⭐️ if you like this project!
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Audrey-Ella-xo/ror-social-scaffold.svg?style=flat-square
-[contributors-url]: https://github.com/Audrey-Ella-xo/To-Do-List/graphs/contributors
+[contributors-url]: https://github.com/Audrey-Ella-xo/Restaurant-page/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Audrey-Ella-xo/ror-social-scaffold.svg?style=flat-square
-[forks-url]: https://github.com/Audrey-Ella-xo/To-Do-List/network/members
+[forks-url]: https://github.com/Audrey-Ella-xo/Restaurant-page/network/members
 [stars-shield]: https://img.shields.io/github/stars/Audrey-Ella-xo/ror-social-scaffold.svg?style=flat-square
-[stars-url]: https://github.com/Audrey-Ella-xo/To-Do-List/stargazers
+[stars-url]: https://github.com/Audrey-Ella-xo/Restaurant-page/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Audrey-Ella-xo/ror-social-scaffold.svg?style=flat-square
-[issues-url]: https://github.com/Audrey-Ella-xo/To-Do-List/issues
+[issues-url]: https://github.com/Audrey-Ella-xo/Restaurant-page/issues
 [product-screenshot]: /app/assets/images/screenshot.png
