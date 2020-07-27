@@ -61,8 +61,8 @@
 This project is a simple Restaurant page application that was done in an effort to learn about the use of javascript factory functions, module pattern, Webpack and ES6 Modules's single Responsibility and Tightly Coupled Objects with HTML and CSS.
 
 #### Screenshot
-![image](https://user-images.githubusercontent.com/54140453/83572611-cb356780-a521-11ea-89ca-e6a0e47228cb.png)
-![image](https://user-images.githubusercontent.com/54140453/83572661-de483780-a521-11ea-9f73-285b3a0d3bb0.png)
+![image](https://user-images.githubusercontent.com/54140453/88499936-4b76c700-cfbf-11ea-8fc5-83b728d74ae7.png)
+![image](https://user-images.githubusercontent.com/54140453/88499962-60535a80-cfbf-11ea-846c-b167c926e262.png)
 ### Installation
 
 To get a local copy up and running follow these simple example steps.
