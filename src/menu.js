@@ -1,9 +1,9 @@
 const menuPage = () => {
-  const contentElement = document.createElement('div');
-  contentElement.id = 'menuContent';
-  contentElement.classList.add('content', 'container', 'menu-list');
-  const heading = document.createElement('h2');
-  heading.innerHTML = 'THE DELICIOUS DISHES';
+  const contentContainer = document.createElement('div');
+  contentContainer.id = 'menuContent';
+  contentContainer.classList.add('content', 'container', 'menu-list');
+  const title = document.createElement('h2');
+  title.innerHTML = 'Mouth Watering Menu';
 
   const starter = document.createElement('div');
   starter.innerHTML = `
@@ -44,12 +44,12 @@ const menuPage = () => {
                     <li>Lorem ipsum dolor sit amet.............. #50</li>
                 </ul>
   `;
-  contentElement.appendChild(heading);
-  contentElement.appendChild(starter);
-  contentElement.appendChild(main);
-  contentElement.appendChild(dessert);
+  contentContainer.appendChild(title);
+  contentContainer.appendChild(starter);
+  contentContainer.appendChild(main);
+  contentContainer.appendChild(dessert);
 
-  document.body.appendChild(contentElement);
+  document.body.appendChild(contentContainer);
 };
 
 export default menuPage;

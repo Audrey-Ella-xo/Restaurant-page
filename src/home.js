@@ -1,7 +1,7 @@
 const homePage = () => {
-  const contentElement = document.createElement('div');
-  contentElement.id = 'homeContent';
-  contentElement.classList.add('content', 'container');
+  const contentContainer = document.createElement('div');
+  contentContainer.id = 'homeContent';
+  contentContainer.classList.add('content', 'container');
 
   const cardFactory = (heading, body, small) => ({ heading, body, small });
 
@@ -33,9 +33,9 @@ const homePage = () => {
     cardPannel.appendChild(card1);
   });
 
-  contentElement.appendChild(cardPannel);
+  contentContainer.appendChild(cardPannel);
 
-  document.body.appendChild(contentElement);
+  document.body.appendChild(contentContainer);
 };
 
 export default homePage;

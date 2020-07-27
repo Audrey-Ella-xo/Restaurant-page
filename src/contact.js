@@ -1,7 +1,7 @@
 const contactPage = () => {
-  const contentElement = document.createElement('div');
-  contentElement.id = 'contactContent';
-  contentElement.classList.add('content', 'container');
+  const contentContainer = document.createElement('div');
+  contentContainer.id = 'contactContent';
+  contentContainer.classList.add('content', 'container');
 
   const title = document.createElement('h2');
   title.innerHTML = 'Contact us at: ';
@@ -10,11 +10,11 @@ const contactPage = () => {
   const telephone = document.createElement('p');
   telephone.innerHTML = 'Call us at: 1234567888';
 
-  contentElement.appendChild(title);
-  contentElement.appendChild(address);
-  contentElement.appendChild(telephone);
+  contentContainer.appendChild(title);
+  contentContainer.appendChild(address);
+  contentContainer.appendChild(telephone);
 
-  document.body.appendChild(contentElement);
+  document.body.appendChild(contentContainer);
 };
 
 export default contactPage;
