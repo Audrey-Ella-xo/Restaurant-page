@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient( /* somewhat transparent film on top of the BG to make it look darker. */
+                rgba(54, 54, 54, 0.322),
+                rgba(42, 42, 42, 0.315)
+                ), url("./assets/chilimage.jpg") no-repeat center center fixed; /* only display once, center horizontal and vertical, dont let scroll change position. */
+  -webkit-background-size: cover;
+  -moz-background-size: cover; /* cover the whole html element. */
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: cornsilk;
+}
+
+.add-panel {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  
+  .card {
+    background-color: rgba(68, 68, 68, 0.65);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  #contactContent, #menuContent {
+    background-color: rgba(68, 68, 68, 0.65);
+    margin: 0 200px;
+    padding: 10px 50px;
+    border-radius: 10px;
+  }
+  
